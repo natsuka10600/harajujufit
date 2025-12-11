@@ -1,6 +1,6 @@
 
-import { Exercise, UserCheckIn, ExerciseType, PainLevel, RoutineItem } from '../types';
-import { EXERCISE_DB } from '../constants';
+import { Exercise, UserCheckIn, ExerciseType, PainLevel, RoutineItem } from './types';
+import { EXERCISE_DB } from './constants';
 
 export const generateRoutine = (checkIn: UserCheckIn): RoutineItem[] => {
   const { painLevel, availableTimeMin, feeling } = checkIn;
