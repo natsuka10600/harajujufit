@@ -8,7 +8,7 @@ import {
   PostWorkoutFeedback,
   DailyLog
 } from './types';
-import { generateRoutine } from './services/routineGenerator';
+import { generateRoutine } from './routineGenerator';
 import { JP_DESIGN, LOOT_DB } from './constants';
 import { PixelButton, PixelCard, PixelAvatar } from './components/PixelComponents';
 
