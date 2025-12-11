@@ -10,7 +10,7 @@ import {
 } from './types';
 import { generateRoutine } from './routineGenerator';
 import { JP_DESIGN, LOOT_DB } from './constants';
-import { PixelButton, PixelCard, PixelAvatar } from './components/PixelComponents';
+import { PixelButton, PixelCard, PixelAvatar } from './PixelComponents';
 
 type PlayPhase = 'PREP' | 'WORKOUT' | 'REST';
 
